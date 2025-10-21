@@ -14,7 +14,7 @@ janela.configure(bg="#121212")
 fundo_cor = "#121212"
 texto_cor = "#EAEAEA"
 cor_botao = "#3E3E3E"
-cor_hover = "#6AA9F7"
+cor_hover = "#8598AF"
 cor_entrada = "#1F1F1F"
 cor_frame = "#1C1C1C"
 cor_resultado = "#7FDBCA"
@@ -49,7 +49,7 @@ def calcular():
         resultado_area.config(
             text=f"Exhaust pipe area: {EPA:.2f} mm²\nValve flow area: {VFA:.2f} mm²")
         resultado_dimensao.config(
-            text=f"Estimated length: {comprimento:.1f} mm ({comprimento/1000:.3f} m)")
+            text=f"Tube Length: {comprimento:.1f} mm ({comprimento/1000:.3f} m)")
         resultado_empuxo.config(text=f"Estimated thrust: {empuxo:.2f} kgf")
         resultado_freq.config(text=f"Estimated frequency: {freq:.1f} Hz")
 
@@ -93,7 +93,7 @@ def on_enter(e):
 def on_leave(e):
     botao_calc.config(bg=cor_botao)
 
-botao_calc = tk.Button(container, text="Calcular", width=20, height=2,
+botao_calc = tk.Button(container, text="Calculate", width=20, height=2,
                        bg=cor_botao, fg="white", font=fonte_botao, bd=0, relief="flat",
                        command=calcular, activebackground=cor_hover, cursor="hand2")
 botao_calc.pack(pady=15)
