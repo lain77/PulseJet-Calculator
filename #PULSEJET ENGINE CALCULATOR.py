@@ -49,12 +49,12 @@ def calcular():
         resultado_area.config(
             text=f"Exhaust pipe area: {EPA:.2f} mm²\nValve flow area: {VFA:.2f} mm²")
         resultado_dimensao.config(
-            text=f"Comprimento estimado: {comprimento:.1f} mm ({comprimento/1000:.3f} m)")
-        resultado_empuxo.config(text=f"Empuxo estimado: {empuxo:.2f} kgf")
-        resultado_freq.config(text=f"Frequência estimada: {freq:.1f} Hz")
+            text=f"Estimated length: {comprimento:.1f} mm ({comprimento/1000:.3f} m)")
+        resultado_empuxo.config(text=f"Estimated thrust: {empuxo:.2f} kgf")
+        resultado_freq.config(text=f"Estimated frequency: {freq:.1f} Hz")
 
     except ValueError:
-        resultado_area.config(text="Erro: digite um número válido!")
+        resultado_area.config(text="Error: Type a number!")
         resultado_dimensao.config(text="")
         resultado_empuxo.config(text="")
         resultado_freq.config(text="")
@@ -75,7 +75,7 @@ entrada_frame.pack(pady=15, ipadx=10, ipady=10)
 
 tk.Label(
     entrada_frame,
-    text="Digite o raio do escape (mm):",
+    text="Type the exhaust pipe radius (mm):",
     fg=texto_cor,
     bg=cor_frame,
     font=fonte_texto
@@ -104,7 +104,7 @@ botao_calc.bind("<Leave>", on_leave)
 resultados_frame = tk.Frame(container, bg=cor_frame, highlightbackground="#3A3A3A", highlightthickness=1)
 resultados_frame.pack(padx=40, pady=10, fill="x", ipadx=10, ipady=15)
 
-resultado_area = tk.Label(resultados_frame, text="Aguardando cálculo...",
+resultado_area = tk.Label(resultados_frame, text="Waiting...",
                           fg=cor_resultado, bg=cor_frame, font=fonte_resultado, justify="left")
 resultado_area.pack(anchor="w", padx=20, pady=5)
 
