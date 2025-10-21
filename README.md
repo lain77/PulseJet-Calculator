@@ -1,4 +1,4 @@
-![Pulsejet Diagram](https://pulsejet-sim.com/static/images/5.%20%D0%B1%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE-Photoroom.png)
+![Pulsejet Diagram]([https://pulsejet-sim.com/static/images/5.%20%D0%B1%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE-Photoroom.png](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUGWX2FH_c8_OHwNmCmaVVbq9iKeoqycmZe9LfVm0NTZ8JQNM2WVIY4_Sh2Ux0FBV8UWPvGGgWg_i18R_o7sNxBeHepVqXUL3k9Rv_RMOZVFqZ26-9cQd-m9A93LwYbRC4Hl6-MH5EZW5ne7vMSAHNliEdSZDODAttss78kX7gJAAiMEUpoPr2HilTkXmq/s550/GIF%2012%EC%9B%94%2018%EC%9D%BC%20%EC%9B%94%EC%9A%94%EC%9D%BC%20%EC%98%A4%ED%9B%84%209-20-23.gif))
 
 # 🔥 Pulsejet Calculator
 
