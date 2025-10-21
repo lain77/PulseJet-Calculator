@@ -1,3 +1,5 @@
+![Pulsejet Diagram](https://pulsejet-sim.com/static/images/5.%20%D0%B1%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE-Photoroom.png)
+
 # 🔥 Pulsejet Calculator
 
 **Pulsejet Calculator** is a lightweight desktop tool that helps you estimate the key dimensions and performance parameters of a pulsejet engine.  
